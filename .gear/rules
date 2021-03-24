@@ -1,0 +1,3 @@
+tar: v@version@:. name=@name@-v@version@ base=@name@-v@version@
+diff: v@version@:. . name=@name@-v@version@.patch
+spec: .gear/forwardable-extended.spec
